@@ -15,6 +15,7 @@ public class Main {
         System.out.println(expression1);
         System.out.println(expression2);
 
-
+        System.out.println(10/2*5);
+        System.out.println(5*2/10);
     }
 }
