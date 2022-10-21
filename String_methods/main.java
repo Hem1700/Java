@@ -48,7 +48,17 @@ public class main {
 
         System.out.println("---------------------------------------------");
 
-        
+        String str6 = "JAVA";
+        String str7 = "java";
+        String str8 = "python";
+        String str9 = "python";
+        System.out.println(str9.equals(str8));
+        System.out.println(str9.equals(str7));
+        System.out.println(str6.equalsIgnoreCase(str7));
+        System.out.println(str7.compareTo(str9));
+        System.out.println(str9.valueOf(1));
+
+
 
 
 
