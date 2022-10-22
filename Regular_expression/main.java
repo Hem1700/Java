@@ -51,6 +51,27 @@ public class main {
         System.out.println(str4.matches("\\D"));
         System.out.println(str5.matches("\\s"));
         System.out.println(str5.matches("\\S"));
+
+
+        /* Quantifiers
+         *  "*" - 0 or more time
+         *  "+" - One or more
+         *  "?" - 0 or 1 time
+         *  "{X}" - X times
+         *  "{X,Y}" - Betweeen X and Y time
+         */
+
+        System.out.println("------------------------------------------");
+        System.out.println("Quantifiers");
+        System.out.println("------------------------------------------");
+
+        String str6 = "abcd";
+        String str7 = "apple";
+        System.out.println(str6.matches(".*"));
+        System.out.println(str6.matches("[abc]*"));
+        System.out.println(str7.matches("[a-z]*"));
+        
+
     
         
         
