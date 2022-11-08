@@ -35,7 +35,7 @@ public class loops_3 {
                     System.out.print("Three\t");
                     break;
                 case '4': 
-                    System.out.print("Four");
+                    System.out.print("Four\t");
                     break;
                 case '5': 
                     System.out.print("Five\t");
