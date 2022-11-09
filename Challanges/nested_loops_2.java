@@ -10,8 +10,6 @@ public class nested_loops_2 {
         int choice  = sc.nextInt();
         switch (choice){
             case 1: 
-                System.out.println("Pattern 1\n");
-                System.out.println("Enter the limit for pattern");
                 int n1 = sc.nextInt();
                 for (int i = 1; i<=n1; i++){
                     for (int j = 1 ; j<=i; j++){
