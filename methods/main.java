@@ -10,6 +10,10 @@ public class main {
             return b;
         
     }
+
+    static void update(int A[]){
+        A[0] = 25;
+    }
     public static void main(String args[]){
 
         System.out.println("Methods");
@@ -18,9 +22,15 @@ public class main {
         // Ways of calling a method
         c = max(a,b);
         System.out.println(c);
-
         main mp = new main();
         System.out.println(mp.max(a, b));
+
+
+        // Passing Object as Parameters
+
+        int A[]  = {2,3,4,5,6,7};
+        update(A);
+        System.out.println(A[0]);
 
     }
     
