@@ -1,8 +1,6 @@
 import java.lang.*;
 import java.util.*;
 
-import org.w3c.dom.css.Rect;
-
 class Rectangle{
 
     private double length;
